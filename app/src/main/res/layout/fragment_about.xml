@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.AboutFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Our Beer Bar"
+            android:fontFamily="@font/almendra"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our Beer Bar, where we offer an extensive selection of craft beers, local brews, and imported favorites. Enjoy a relaxed and vibrant atmosphere while savoring the finest brews from around the world."
+            android:textColor="@color/black"
+            android:fontFamily="@font/almendra"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Come and experience the perfect blend of flavors, aromas, and the camaraderie of fellow beer enthusiasts. Whether you're a seasoned beer connoisseur or new to the craft, our bar offers something for everyone."
+            android:textColor="@color/black"
+            android:fontFamily="@font/almendra"
+            android:textStyle="bold"
+            android:paddingTop="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
